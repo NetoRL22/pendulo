@@ -4,18 +4,6 @@ from datetime import datetime, timezone
 import numpy as np
 import ga
 
-##constantes
-f = 0
-maca = 1
-l_en = 3
-t = 4
-x = 5
-y = 6
-thetha = 7
-
-##to discover
-## A, b, w, fi para x,y e theta
-
 def mass_center(shape,minA,maxA):
      if cv2.contourArea(shape) < minA:
           return ["ERRO","ERRO"]
